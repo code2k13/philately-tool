@@ -29,7 +29,7 @@ sudo apt-get install -y libgl1
 ```
 
 ```bash
-pip install ultralytics sentence-transformers opencv-python pillow tqdm rich sqlite-vec rembg onnxruntime pysqlite3-binary
+pip install ultralytics sentence-transformers opencv-python pillow tqdm rich sqlite-vec rembg onnxruntime pysqlite3-binary sqlean.py
 ```
 
 ### 3. Required Files
@@ -206,4 +206,5 @@ If you need to reorganize your files, it is best to run the `init` command and r
  
 
 **Would you like me to help you write a small shell script to automate this backup process daily?**
+
 
