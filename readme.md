@@ -23,6 +23,7 @@ You will need Python 3.9+ and the `sqlite-vec` extension for vector search capab
 
 ### 2. Install Dependencies
 
+For Linux/Unix/MacOS
 ```bash
 sudo apt-get update
 sudo apt-get install -y libgl1
@@ -30,6 +31,11 @@ sudo apt-get install -y libgl1
 
 ```bash
 pip install ultralytics sentence-transformers opencv-python pillow tqdm rich sqlite-vec rembg onnxruntime pysqlite3-binary sqlean.py
+```
+
+For Windows
+```bash
+pip install ultralytics sentence-transformers opencv-python pillow tqdm rich sqlite-vec rembg onnxruntime pysqlite3-binary
 ```
 
 ### 3. Required Files

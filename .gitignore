@@ -4,3 +4,5 @@ philately.json
 inference_outputs
 stamps
 .DS_Store
+input
+.vscode
