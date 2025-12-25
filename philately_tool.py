@@ -35,6 +35,14 @@ from sentence_transformers import SentenceTransformer
 
 import sqlite_vec
 from sqlite_vec import serialize_float32
+import os
+
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and PyInstaller"""
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
+
 
 # -----------------------------
 # Configuration Management
@@ -166,7 +174,7 @@ def extract_stamps(
         if on_status:
             on_status(msg)
 
-        model = YOLO(CFG["model_path"])
+        model = YOLO(resource_path(CFG["model_path"]))
 
         embedder = None
         conn = None
@@ -192,6 +200,11 @@ def extract_stamps(
         total = len(images)
 
         for idx, img_path in enumerate(images, start=1):
+            msg = f"Processing File: {img_path.name} ({idx}/{total})"
+            banner(msg)
+            if on_status:
+                on_status(msg)
+                
             if on_progress:
                 on_progress(idx, total)
 
