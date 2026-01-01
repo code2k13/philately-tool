@@ -16,6 +16,11 @@ A lightweight command-line utility for stamp collectors to digitize, index, and 
  
 
 ## 🛠 Installation & Setup
+> Note: prebuilt binaries are available for windows and MacOS. 
+> - Windows : https://github.com/code2k13/philately-tool/releases/download/windows_v0.17/philately_tool_gui.exe
+> - MacOS: https://github.com/code2k13/philately-tool/releases/download/macos_v0.1/philately_tool_gui
+
+> The below instructions are for running from source
 
 ### 1. Prerequisites
 
@@ -212,5 +217,6 @@ If you need to reorganize your files, it is best to run the `init` command and r
  
 
 **Would you like me to help you write a small shell script to automate this backup process daily?**
+
 
 
