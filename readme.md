@@ -11,7 +11,7 @@ A lightweight utility for stamp collectors to digitize, index, and search massiv
 * **Intelligent Indexing:** Creates a searchable vector database using CLIP embeddings.
 * **Reverse Image Search:** Identify and locate a stamp in your physical collection by providing a photo.
 * **Natural Language Search:** Find stamps using text descriptions (e.g., "red triangular stamp" or "1 cent Washington").
-* **Lightweight CLI:** Designed for speed and ease of use on local hardware.
+* **Lightweight CLI and GUI options available:** Designed for speed and ease of use on local hardware.
 
  
 
@@ -217,6 +217,7 @@ If you need to reorganize your files, it is best to run the `init` command and r
  
 
 **Would you like me to help you write a small shell script to automate this backup process daily?**
+
 
 
 
