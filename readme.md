@@ -1,9 +1,9 @@
 # Philately Tool 📮
 
-A lightweight command-line utility for stamp collectors to digitize, index, and search massive collections. This tool automates the tedious process of cropping individual stamps from full album scans and uses AI to make them searchable via text or image similarity.
+A lightweight utility for stamp collectors to digitize, index, and search massive collections. This tool automates the tedious process of cropping individual stamps from full album scans and uses AI to make them searchable via text or image similarity. Commandline and GUI options are available
 
 ![segmenting stamps from album pages using AI](docs/sample_album_page.png)
- 
+![Graphical user interface for the tool in action](docs/gui.png)
 
 ## 🚀 What It Does
 
@@ -17,7 +17,7 @@ A lightweight command-line utility for stamp collectors to digitize, index, and 
 
 ## 🛠 Installation & Setup
 > Note: prebuilt binaries are available for windows and MacOS. 
-> - Windows : https://github.com/code2k13/philately-tool/releases/download/windows_v0.17/philately_tool_gui.exe
+> - Windows: https://github.com/code2k13/philately-tool/releases/download/windows_v0.17/philately_tool_gui.exe
 > - MacOS: https://github.com/code2k13/philately-tool/releases/download/macos_v0.1/philately_tool_gui
 
 > The below instructions are for running from source
@@ -217,6 +217,7 @@ If you need to reorganize your files, it is best to run the `init` command and r
  
 
 **Would you like me to help you write a small shell script to automate this backup process daily?**
+
 
 
 
