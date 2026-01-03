@@ -46,7 +46,7 @@ pip install ultralytics sentence-transformers opencv-python pillow tqdm rich sql
 ### 3. Required Files
 
 The program relies on a trained YOLO model. Ensure your weights are located at:
-`runs/detect/train25/weights/best.pt`
+`./model.pt`
 
 On the first run, the script will generate a `philately.json` configuration file. You can modify this to change the database path, search sensitivity, or cropping margins.
 
@@ -201,7 +201,7 @@ To restore your collection on a new machine:
 
 1. Install the [Prerequisites](https://www.google.com/search?q=%23-installation--setup).
 2. Place `philately.db` and the `stamps/` folder in the root directory of the tool.
-3. Ensure your `best.pt` model file is in the path defined in your `philately.json`.
+3. Ensure your `model.pt` model file is in the path defined in your `philately.json`.
 4. Run a test search: `python philately_tool.py search_text "test"`.
 
  
@@ -217,6 +217,7 @@ If you need to reorganize your files, it is best to run the `init` command and r
  
 
 **Would you like me to help you write a small shell script to automate this backup process daily?**
+
 
 
 
